@@ -6,15 +6,16 @@ body {
   padding: 0;
 }
 
+/* Navigation */
 nav {
+  background: #0b6e4f;
   text-align: center;
   padding: 20px;
-  background: #0b6e4f;
 }
 
 nav h2 {
   color: white;
-  font-size: 28px;
+  font-size: 30px;
   margin: 0 0 15px;
 }
 
@@ -23,46 +24,53 @@ nav a {
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
+  font-size: 17px;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+/* Hero Section */
 .hero {
-  text-align: center;
-  padding: 80px 20px;
   background-image: url("file_00000000a43872438636daa064e2992d.png");
   background-size: cover;
   background-position: center;
+  text-align: center;
   color: white;
+  padding: 100px 20px;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 42px;
+  margin-bottom: 15px;
   color: white;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
 }
 
 .hero a {
   display: inline-block;
+  margin-top: 25px;
   background: #0b6e4f;
   color: white;
-  padding: 12px 25px;
+  padding: 12px 28px;
   text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
 .hero a:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
+/* Sections */
 section {
-  padding: 20px;
+  padding: 30px 20px;
 }
 
 h2 {
@@ -74,13 +82,14 @@ ul {
   line-height: 1.7;
 }
 
+/* Cards */
 .card {
   background: white;
+  max-width: 850px;
   margin: 20px auto;
   padding: 25px;
-  max-width: 800px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .card h3 {
@@ -97,29 +106,61 @@ ul {
   background: #0b6e4f;
   color: white;
   padding: 10px 20px;
-  text-decoration: none;
   border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .card a:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
+/* Brand Section */
 .brand {
+  background: white;
   text-align: center;
   padding: 40px 20px;
-  background: white;
 }
 
 .brand h2 {
-  font-size: 32px;
-  margin-left: 0;
+  font-size: 34px;
+  margin: 0;
 }
 
+/* Footer */
 footer {
   background: #0b6e4f;
   color: white;
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+footer h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: white;
+  margin: 12px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,0.3);
 }
