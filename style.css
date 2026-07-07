@@ -31,12 +31,16 @@ nav a:hover {
 
 .hero {
   text-align: center;
-  padding: 50px 20px;
+  padding: 80px 20px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
 .hero h1 {
   font-size: 40px;
-  color: #0b6e4f;
+  color: white;
 }
 
 .hero p {
@@ -73,6 +77,42 @@ p, ul {
 
 ul {
   line-height: 1.8;
+}
+
+.card {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card h3 {
+  color: #0b6e4f;
+}
+
+.card a {
+  display: inline-block;
+  background: #0b6e4f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.card a:hover {
+  opacity: 0.8;
+}
+
+.brand {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+}
+
+.brand h2 {
+  font-size: 32px;
+  margin-left: 0;
 }
 
 footer {
