@@ -1,166 +1,68 @@
-body {
+body{
   font-family: Arial, sans-serif;
-  background-color: #f4f8fb;
-  color: #333;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  background:#f4f7fb;
+  color:#333;
 }
 
-/* Navigation */
-nav {
-  background: #0b6e4f;
-  text-align: center;
-  padding: 20px;
+nav{
+  background:#0b6b3a;
+  padding:15px;
+  text-align:center;
 }
 
-nav h2 {
-  color: white;
-  font-size: 30px;
-  margin: 0 0 15px;
+nav h2{
+  color:white;
+  margin:0 0 10px;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  font-size: 17px;
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 10px;
+  font-weight:bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.hero{
+  background:#0b6b3a;
+  color:white;
+  text-align:center;
+  padding:70px 20px;
 }
 
-/* Hero Section */
-.hero {
-  background-image: url("file_00000000a43872438636daa064e2992d.png");
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: white;
-  padding: 100px 20px;
+.hero a{
+  display:inline-block;
+  margin-top:20px;
+  background:#ffd54f;
+  color:black;
+  padding:12px 20px;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
 }
 
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 15px;
-  color: white;
+section{
+  max-width:1000px;
+  margin:30px auto;
+  padding:20px;
 }
 
-.hero p {
-  font-size: 20px;
-  max-width: 700px;
-  margin: auto;
+.card{
+  background:white;
+  padding:20px;
+  margin:20px 0;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,.1);
 }
 
-.hero a {
-  display: inline-block;
-  margin-top: 25px;
-  background: #0b6e4f;
-  color: white;
-  padding: 12px 28px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:30px 20px;
 }
 
-.hero a:hover {
-  opacity: 0.9;
-}
-
-/* Sections */
-section {
-  padding: 30px 20px;
-}
-
-h2 {
-  color: #0b6e4f;
-}
-
-p,
-ul {
-  line-height: 1.7;
-}
-
-/* Cards */
-.card {
-  background: white;
-  max-width: 850px;
-  margin: 20px auto;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.card h3 {
-  color: #0b6e4f;
-  margin-top: 0;
-}
-
-.card p {
-  margin-bottom: 15px;
-}
-
-.card a {
-  display: inline-block;
-  background: #0b6e4f;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.card a:hover {
-  opacity: 0.85;
-}
-
-/* Brand Section */
-.brand {
-  background: white;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.brand h2 {
-  font-size: 34px;
-  margin: 0;
-}
-
-/* Footer */
-footer {
-  background: #0b6e4f;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-  margin-top: 40px;
-}
-
-footer h3 {
-  color: white;
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-footer p {
-  color: white;
-  margin: 12px 0;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 5px;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-footer hr {
-  width: 80%;
-  margin: 20px auto;
-  border: 0;
-  border-top: 1px solid rgba(255,255,255,0.3);
+footer a{
+  color:#ffd54f;
+  text-decoration:none;
 }
