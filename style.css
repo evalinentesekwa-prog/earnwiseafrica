@@ -1,67 +1,53 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f8fb;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-header {
-  background-color: #0b6e4f;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EarnWise Africa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-main {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
-}
+<body>
 
-nav {
-  text-align: center;
-  padding: 20px;
-  background: #0b6e4f;
-}
+  <nav>
+    <h2>EarnWise Africa</h2>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="opportunities.html">Opportunities</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
 
-nav h2 {
-  color: white;
-}
+  <section class="hero">
+    <h1>Welcome to EarnWise Africa</h1>
+    <p>Your trusted platform for legitimate online jobs, freelance work, remote opportunities, and side hustles across Africa.</p>
+    <a href="opportunities.html">Explore Opportunities</a>
+  </section>
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  font-weight: bold;
-}
+  <section>
+    <h2>Our Mission</h2>
+    <p>We help Africans earn online safely by sharing verified opportunities and educating users about scams.</p>
+  </section>
 
-nav a:hover {
-  text-decoration: underline;
-}
+  <section>
+    <h2>Coming Soon</h2>
+    <ul>
+      <li>Verified online jobs</li>
+      <li>Freelance opportunities</li>
+      <li>Remote work listings</li>
+      <li>Scam alerts and safety tips</li>
+    </ul>
+  </section>
 
-h1 {
-  text-align: center;
-  color: #0b6e4f;
-}
+  <section>
+    <h2>Why Choose EarnWise Africa?</h2>
+    <p>We help people across Africa discover legitimate online earning opportunities, learn new skills, and avoid scams.</p>
+  </section>
 
-h2 {
-  color: #0b6e4f;
-}
+  <footer>
+    <p><strong>EarnWise Africa © 2026</strong></p>
+  </footer>
 
-p, ul {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+</body>
 
-ul {
-  line-height: 1.8;
-}
-
-footer {
-  background-color: #0b6e4f;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-}
+</html>
