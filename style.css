@@ -12,8 +12,12 @@ nav {
   background: #0b6e4f;
 }
 
-nav h2 {
+.logo {
   color: white;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 nav a {
@@ -60,34 +64,13 @@ h2 {
   margin-left: 20px;
 }
 
-p {
+p, ul {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 ul {
   line-height: 1.8;
-  margin-left: 20px;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
-}
-
-.card {
-  width: 250px;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.card h2 {
-  margin-left: 0;
 }
 
 footer {
