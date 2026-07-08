@@ -27,14 +27,28 @@ nav{
   box-shadow:0 3px 10px rgba(0,0,0,.15);
 }
 
-/* Logo */
+/* Logo Container */
+
+.logo-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+  margin-bottom:15px;
+}
 
 .logo{
   width:80px;
   height:80px;
   object-fit:contain;
-  display:block;
-  margin:0 auto 10px;
+  border-radius:50%;
+  background:white;
+}
+
+.logo-container h2{
+  color:white;
+  font-size:36px;
+  margin:0;
 }
 
 nav h2{
@@ -43,6 +57,7 @@ nav h2{
   margin-bottom:15px;
 }
 
+.nav-links a,
 nav a{
   color:white;
   text-decoration:none;
@@ -58,8 +73,10 @@ nav a:hover{
 /* Hero */
 
 .hero{
-  background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+  background:
+  linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
   url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600");
+
   background-size:cover;
   background-position:center;
   color:white;
@@ -87,7 +104,6 @@ nav a:hover{
   border-radius:40px;
   text-decoration:none;
   font-weight:bold;
-  transition:.3s;
 }
 
 .hero a:hover{
@@ -180,7 +196,6 @@ select{
   border:1px solid #ccc;
   border-radius:8px;
   font-size:16px;
-  font-family:Arial, Helvetica, sans-serif;
 }
 
 input:focus,
@@ -203,7 +218,6 @@ button{
   font-size:16px;
   font-weight:bold;
   cursor:pointer;
-  transition:.3s;
 }
 
 button:hover{
@@ -243,16 +257,20 @@ hr{
   margin:25px 0;
 }
 
-/* Responsive */
+/* Mobile */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
 .logo{
   width:65px;
   height:65px;
 }
 
-nav h2{
+.logo-container{
+  flex-direction:column;
+}
+
+.logo-container h2{
   font-size:28px;
 }
 
